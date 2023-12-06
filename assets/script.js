@@ -36,14 +36,10 @@ arrowLeft.onclick = function () {
 		
 		currentDotIndex = nbDots-1;
 		updateSlide();
-		console.log("left");
-		console.log(currentDotIndex);
 		
 	} else {
 		currentDotIndex -= 1;
 		updateSlide();
-		console.log("left");
-		console.log(currentDotIndex);
 	}
 	
 }
@@ -52,12 +48,10 @@ arrowRight.onclick = function () {
 	if (currentDotIndex == nbDots - 1) {
 		currentDotIndex = 0;
 		updateSlide();
-		console.log(currentDotIndex);
 	} else {
 		console.log("right");
 		currentDotIndex += 1;
 		updateSlide();
-		console.log(currentDotIndex);
 	
 	}
 	
